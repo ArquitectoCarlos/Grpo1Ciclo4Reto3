@@ -16,28 +16,29 @@ class _loginState extends State<login> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Login / Registro"),
+        title: const Text("Login / Registro"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
               child: Image(
+                  width: 200,
                   image: NetworkImage(
                       "https://cryptologos.cc/logos/chatcoin-chat-logo.png")),
             ),
             TextField(
                 controller: email,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     hintText: "Email", suffixIcon: Icon(Icons.email))),
             TextField(
                 obscureText: true,
                 controller: password,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                     hintText: "Password", suffixIcon: Icon(Icons.key))),
-            Divider(),
+            const Divider(),
             ElevatedButton.icon(
                 onPressed: () {
                   Autenticacion().IniciarSesion(
