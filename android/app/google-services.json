@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983664459314",
+    "firebase_url": "https://appmensajesg1-default-rtdb.firebaseio.com",
+    "project_id": "appmensajesg1",
+    "storage_bucket": "appmensajesg1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983664459314:android:604f2fb675638f44a3462b",
+        "android_client_info": {
+          "package_name": "com.example.f_chat_template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983664459314-hi3202f2kkf1oms7gkmkhlk5v1moubip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj311CJ9XSyosDKjt5OxteZg3hsSeRzl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983664459314-hi3202f2kkf1oms7gkmkhlk5v1moubip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
